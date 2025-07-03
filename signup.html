@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daftar - KaktusKu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kumpulan_css/login_signup.css">
+  <style>
+    body {
+            position: relative;
+            background-image: url("gambar/bg-signup.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        /* Overlay gradasi hitam ke transparan */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+            z-index: 1;
+        }
+
+        /* Efek bintang berkilau */
+        @keyframes stars {
+
+            0%,
+            100% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 100% 100%;
+            }
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(white 1px, transparent 1px);
+            background-size: 3px 3px;
+            animation: stars 60s linear infinite;
+            opacity: 0.1;
+            z-index: 0;
+        }
+  </style>
+</head>
+
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="signup-container">
+    <h2>Daftar ke <span style="color:#558b2f;">KaktusKu</span></h2>
+    <form action="login.html" method="post">
+      <input type="text" name="fullname" placeholder="Nama Lengkap" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Kata Sandi" required />
+      <button type="button" onclick="showSuccessAndRedirect()">Daftar</button>
+      <div class="login-link">
+        Sudah punya akun? <a href="login.html">Login di sini</a>
+      </div>
+    </form>
+    <script>
+      function showSuccessAndRedirect() {
+        alert('Pendaftaran berhasil! Silakan login.');
+        window.location.href = 'login.html';
+      }
+    </script>
+    </form>
+  </div>
+
+</body>
+
+</html>
