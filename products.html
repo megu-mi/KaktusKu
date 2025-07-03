@@ -62,7 +62,9 @@
         <h1 class="about-title">Koleksi Kaktus & Sukulen</h1>
         <div class="produk-grid">
 
-            <article class="produk-card">
+
+            <article class="produk-card"
+                onclick="bukaModalProduk('Kaktus Mini', 'Kaktus kecil yang lucu, cocok untuk meja kerja atau dekorasi kamar.', 25000, 10000, 'gambar/kaktus-mini.jpg')">
                 <img src="gambar/kaktus-mini.jpg" alt="Kaktus Mini" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Kaktus Mini</h3>
@@ -70,14 +72,15 @@
                     <div class="harga">Rp 25.000 / Beli | Rp 10.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Kaktus Mini', 25000, 'beli', 'gambar/kaktus-mini.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Kaktus Mini', 25000, 'beli', 'gambar/kaktus-mini.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Kaktus Mini', 10000, 'sewa', 'gambar/kaktus-mini.jpg')">Sewa</button>
+                            onclick="tambahKeKeranjang('Kaktus Mini', 10000, 'sewa', 'gambar/kaktus-mini.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Sukulen Gantung', 'Sukulen cantik yang bisa digantung, memperindah sudut ruanganmu.', 30000, 12000, 'gambar/sukulen-gantung.jpg')">
                 <img src="gambar/sukulen-gantung.jpg" alt="Sukulen Gantung" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Sukulen Gantung</h3>
@@ -85,15 +88,15 @@
                     <div class="harga">Rp 30.000 / Beli | Rp 12.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Sukulen Gantung', 30000, 'beli', 'gambar/sukulen-gantung.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Sukulen Gantung', 30000, 'beli', 'gambar/sukulen-gantung.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Sukulen Gantung', 12000, 'sewa', 'gambar/sukulen-gantung.jpg')">Sewa</button>
-
+                            onclick="tambahKeKeranjang('Sukulen Gantung', 12000, 'sewa', 'gambar/sukulen-gantung.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Kaktus Berbunga', 'Kaktus cantik dengan bunga warna-warni yang memikat.', 60000, 22000, 'gambar/kaktus-berbunga.jpg')">
                 <img src="gambar/kaktus-berbunga.jpg" alt="Kaktus Berbunga" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Kaktus Berbunga</h3>
@@ -101,15 +104,15 @@
                     <div class="harga">Rp 60.000 / Beli | Rp 22.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Kaktus Berbunga', 60000, 'beli', 'gambar/kaktus-berbunga.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Kaktus Berbunga', 60000, 'beli', 'gambar/kaktus-berbunga.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Kaktus Berbunga', 22000, 'sewa', 'gambar/kaktus-berbunga.jpg')">Sewa</button>
-
+                            onclick="tambahKeKeranjang('Kaktus Berbunga', 22000, 'sewa', 'gambar/kaktus-berbunga.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Sukulen Putih', 'Sukulen berwarna putih dengan tekstur lembut, sangat elegan.', 50000, 20000, 'gambar/sukulen-putih.jpg')">
                 <img src="gambar/sukulen-putih.jpg" alt="Sukulen Putih" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Sukulen Putih</h3>
@@ -117,15 +120,15 @@
                     <div class="harga">Rp 50.000 / Beli | Rp 20.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Sukulen Putih', 50000, 'beli', 'gambar/sukulen-putih.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Sukulen Putih', 50000, 'beli', 'gambar/sukulen-putih.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Sukulen Putih', 20000, 'sewa', 'gambar/sukulen-putih.jpg')">Sewa</button>
-
+                            onclick="tambahKeKeranjang('Sukulen Putih', 20000, 'sewa', 'gambar/sukulen-putih.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Kaktus Gemuk', 'Kaktus dengan batang gemuk, cocok untuk dekorasi minimalis.', 40000, 15000, 'gambar/kaktus-gemuk.jpg')">
                 <img src="gambar/kaktus-gemuk.jpg" alt="Kaktus Gemuk" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Kaktus Gemuk</h3>
@@ -133,15 +136,15 @@
                     <div class="harga">Rp 40.000 / Beli | Rp 15.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Kaktus Gemuk', 40000, 'beli', 'gambar/kaktus-gemuk.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Kaktus Gemuk', 40000, 'beli', 'gambar/kaktus-gemuk.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Kaktus Gemuk', 15000, 'sewa', 'gambar/kaktus-gemuk.jpg')">Sewa</button>
-
+                            onclick="tambahKeKeranjang('Kaktus Gemuk', 15000, 'sewa', 'gambar/kaktus-gemuk.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Sukulen Kuning', 'Sukulen warna kuning cerah yang menambah kesan ceria pada ruangan.', 55000, 21000, 'gambar/sukulen-kuning.jpg')">
                 <img src="gambar/sukulen-kuning.jpg" alt="Sukulen Kuning" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Sukulen Kuning</h3>
@@ -149,14 +152,15 @@
                     <div class="harga">Rp 55.000 / Beli | Rp 21.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Sukulen Kuning', 55000, 'beli', 'gambar/sukulen-kuning.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Sukulen Kuning', 55000, 'beli', 'gambar/sukulen-kuning.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Sukulen Gantung', 21000, 'sewa', 'gambar/sukulen-kuning.jpg')">Sewa</button>
+                            onclick="tambahKeKeranjang('Sukulen Kuning', 21000, 'sewa', 'gambar/sukulen-kuning.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Kaktus Mini Putih', 'Kaktus mini dengan warna putih lembut, cocok untuk dekorasi meja.', 28000, 11000, 'gambar/kaktus-mini-putih.jpg')">
                 <img src="gambar/kaktus-mini-putih.jpg" alt="Kaktus Mini Putih" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Kaktus Mini Putih</h3>
@@ -164,14 +168,15 @@
                     <div class="harga">Rp 28.000 / Beli | Rp 11.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Kaktus Mini Putih', 28000, 'beli', 'gambar/kaktus-mini-putih.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Kaktus Mini Putih', 28000, 'beli', 'gambar/kaktus-mini-putih.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Kaktus Mini Putih', 11000, 'sewa', 'gambar/kaktus-mini-putih.jpg')">Sewa</button>
+                            onclick="tambahKeKeranjang('Kaktus Mini Putih', 11000, 'sewa', 'gambar/kaktus-mini-putih.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card"
+                onclick="bukaModalProduk('Sukulen Merah', 'Sukulen warna merah menyala, pilihan tepat untuk sentuhan warna kuat.', 52000, 19000, 'gambar/sukulen-merah.jpg')">
                 <img src="gambar/sukulen-merah.jpg" alt="Sukulen Merah" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Sukulen Merah</h3>
@@ -179,9 +184,9 @@
                     <div class="harga">Rp 52.000 / Beli | Rp 19.000 / Sewa</div>
                     <div class="btn-group">
                         <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Sukulen Merah', 52000, 'beli', 'gambar/sukulen-merah.jpg')">Beli</button>
+                            onclick="tambahKeKeranjang('Sukulen Merah', 52000, 'beli', 'gambar/sukulen-merah.jpg'); event.stopPropagation();">Beli</button>
                         <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Sukulen Merah', 19000, 'sewa', 'gambar/sukulen-merah.jpg')">Sewa</button>
+                            onclick="tambahKeKeranjang('Sukulen Merah', 19000, 'sewa', 'gambar/sukulen-merah.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
@@ -194,122 +199,106 @@
         <h1 class="about-title">Koleksi Pot khusus Kaktus</h1>
         <div class="produk-grid">
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Original Earthlings Sitting', 'Pot kaktus plastik lucu, cocok buat dekorasi kamar anak perempuan.', 55000, 12000, 'gambar/pot kaktus 9.jpg')">
                 <img src="gambar/pot kaktus 9.jpg" alt="Pot kaktus 9" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Original Earthlings Sitting </h3>
                     <p>Pot kaktus plastik lucu, cocok buat dekorasi kamar anak perempuan.</p>
                     <div class="harga">Rp 55.000 / Beli | Rp 12.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Original Earthlings Sitting', 55000, 'beli', 'gambar/pot kaktus 9.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Original Earthlings Sitting', 12000, 'sewa', 'gambar/pot kaktus 9.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Original Earthlings Sitting', 55000, 'beli', 'gambar/pot kaktus 9.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Original Earthlings Sitting', 12000, 'sewa', 'gambar/pot kaktus 9.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Cute Ceramic Succulent Garden Pots', 'Pot keramik yang cerah, cocok ditaruh di tempat indor', 45000, 10000, 'gambar/pot kaktus 2.jpg')">
                 <img src="gambar/pot kaktus 2.jpg" alt="Pot Katus 2" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Cute Ceramic Succulent Garden Pots</h3>
                     <p>Pot keramik yang cerah, cocok ditaruh di tempat indor</p>
                     <div class="harga">Rp 45.000 / Beli | Rp 10.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Cute Ceramic Succulent Garden Pots', 45000, 'beli', 'gambar/pot kaktus 2.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Cute Ceramic Succulent Garden Pots', 10000, 'sewa', 'gambar/pot kaktus 2.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Cute Ceramic Succulent Garden Pots', 45000, 'beli', 'gambar/pot kaktus 2.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Cute Ceramic Succulent Garden Pots', 10000, 'sewa', 'gambar/pot kaktus 2.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Cute Animal Ceramics', 'Pot kaktus yang lucu, cocok dibelikan untuk anak.', 120000, 22000, 'gambar/pot kaktus 3.jpg')">
                 <img src="gambar/pot kaktus 3.jpg" alt="Pot Kaktus 3" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Cute Animal Ceramics</h3>
                     <p>Pot kaktus yang lucu, cocok dibelikan untuk anak.</p>
                     <div class="harga">Rp 120.000 / Beli | Rp 22.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Cute Animal Ceramic', 120000, 'beli', 'gambar/pot kaktus 3.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Cute Animal Ceramic', 22000, 'sewa', 'gambar/pot kaktus 3.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Cute Animal Ceramics', 120000, 'beli', 'gambar/pot kaktus 3.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Cute Animal Ceramics', 22000, 'sewa', 'gambar/pot kaktus 3.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Succulent Pots', 'Pot keramik yang sangat minimalis, cocok buat pengisi meja kalian.', 80000, 20000, 'gambar/pot kaktus 4.jpg')">
                 <img src="gambar/pot kaktus 4.jpg" alt="Pot Kaktus 4" class="produk-img" />
                 <div class="produk-info">
-                    <h3 class="KMK"> Succulent Pots</h3>
+                    <h3 class="KMK">Succulent Pots</h3>
                     <p>Pot keramik yang sangat minimalis, cocok buat pengisi meja kalian.</p>
                     <div class="harga">Rp 80.000 / Beli | Rp 20.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Succulent Pots', 80000, 'beli', 'gambar/pot kaktus 4.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Succulent Pots', 20000, 'sewa', 'gambar/pot kaktus 4.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Succulent Pots', 80000, 'beli', 'gambar/pot kaktus 4.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Succulent Pots', 20000, 'sewa', 'gambar/pot kaktus 4.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Ceramic Planter Pot with Drainage Hole and Saucer', 'Pot keramik yang sangat minimalis, cocok ditaruh di tempat outdor.', 85000, 15000, 'gambar/pot kaktus 5.jpg')">
                 <img src="gambar/pot kaktus 5.jpg" alt="Pot Kaktus 5" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Ceramic Planter Pot with Drainage Hole and Saucer</h3>
                     <p>Pot keramik yang sangat minimalis, cocok ditaruh di tempat outdor.</p>
                     <div class="harga">Rp 85.000 / Beli | Rp 15.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer', 85000, 'beli', 'gambar/pot kaktus 5.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer', 15000, 'sewa', 'gambar/pot kaktus 5.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer', 85000, 'beli', 'gambar/pot kaktus 5.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer', 15000, 'sewa', 'gambar/pot kaktus 5.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Ceramic Planter Pot with Drainage Hole and Saucer V2', 'Pot keramik lucu, cocok untuk anak perempuan.', 120000, 21000, 'gambar/pot kaktus 6.jpg')">
                 <img src="gambar/pot kaktus 6.jpg" alt="Pot kaktus 6" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Ceramic Planter Pot with Drainage Hole and Saucer V2</h3>
                     <p>Pot keramik lucu, cocok untuk anak perempuan.</p>
                     <div class="harga">Rp 120.000 / Beli | Rp 21.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer V2', 120000, 'beli', 'gambar/pot kaktus 6.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer V2', 21000, 'sewa', 'gambar/pot kaktus 6.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer V2', 120000, 'beli', 'gambar/pot kaktus 6.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Ceramic Planter Pot with Drainage Hole and Saucer V2', 21000, 'sewa', 'gambar/pot kaktus 6.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('Transparent Plastic Garden Pots Planter with Saucer 4/5 /6/7 /8 inch Plant Pot', 'Pot kaktus plastis, cocok untuk di taruh di halaman/farm kalian.', 12000, 2000, 'gambar/pot kaktus 7.jpg')">
                 <img src="gambar/pot kaktus 7.jpg" alt="Pot Kaktus 7" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">Transparent Plastic Garden Pots Planter with Saucer 4/5 /6/7 /8 inch Plant Pot</h3>
                     <p>Pot kaktus plastis, cocok untuk di taruh di halaman/farm kalian.</p>
                     <div class="harga">Rp 12.000 / Beli | Rp 2.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('Transparent Plastic Garden Pots Planter with Saucer 4/5 /6/7 /8 inch Plant Pot', 12000, 'beli', 'gambar/pot kaktus 7.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('Transparent Plastic Garden Pots Planter with Saucer 4/5 /6/7 /8 inch Plant Pot', 2000, 'sewa', 'gambar/pot kaktus 7.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('Transparent Plastic Garden Pots Planter with Saucer 4/5 /6/7 /8 inch Plant Pot', 12000, 'beli', 'gambar/pot kaktus 7.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('Transparent Plastic Garden Pots Planter with Saucer 4/5 /6/7 /8 inch Plant Pot', 2000, 'sewa', 'gambar/pot kaktus 7.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
 
-            <article class="produk-card">
+            <article class="produk-card" onclick="bukaModalProduk('4 Inch Terracotta Plant Pots with Saucer - 6 Pack Clay Flower Pots', 'pot plastik, cocok bagi kalian ingin berjualan kaktus.', 30000, 10000, 'gambar/pot kaktus 8.jpg')">
                 <img src="gambar/pot kaktus 8.jpg" alt="pot Kaaktus 8" class="produk-img" />
                 <div class="produk-info">
                     <h3 class="KMK">4 Inch Terracotta Plant Pots with Saucer - 6 Pack Clay Flower Pots</h3>
                     <p>pot plastik, cocok bagi kalian ingin berjualan kaktus.</p>
                     <div class="harga">Rp 30.000 / Beli | Rp 10.000 / Sewa</div>
                     <div class="btn-group">
-                        <button class="btn-beli"
-                            onclick="tambahKeKeranjang('4 Inch Terracotta Plant Pots with Saucer - 6 Pack Clay Flower Pots', 30000, 'beli', 'gambar/pot kaktus 8.jpg')">Beli</button>
-                        <button class="btn-sewa"
-                            onclick="tambahKeKeranjang('4 Inch Terracotta Plant Pots with Saucer - 6 Pack Clay Flower Pots', 10000, 'sewa', 'gambar/pot kaktus 8.jpg')">Sewa</button>
+                        <button class="btn-beli" onclick="tambahKeKeranjang('4 Inch Terracotta Plant Pots with Saucer - 6 Pack Clay Flower Pots', 30000, 'beli', 'gambar/pot kaktus 8.jpg'); event.stopPropagation();">Beli</button>
+                        <button class="btn-sewa" onclick="tambahKeKeranjang('4 Inch Terracotta Plant Pots with Saucer - 6 Pack Clay Flower Pots', 10000, 'sewa', 'gambar/pot kaktus 8.jpg'); event.stopPropagation();">Sewa</button>
                     </div>
                 </div>
             </article>
@@ -320,80 +309,80 @@
             <h1 class="about-title">Pupuk</h1>
             <div class="produk-grid">
 
-                <article class="produk-card">
+
+                <article class="produk-card" onclick="bukaModalProduk('Pupuk NPK 100gram Pupuk Penyubur Kaktus dan Tanaman Hias', 'Cocok untuk meyehatkan kaktus kalian .', 28000, 0, 'gambar/pupuk kaktus 1.webp')">
                     <img src="gambar/pupuk kaktus 1.webp" alt="Pupuk Kaktus" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Pupuk NPK 100gram Pupuk Penyubur Kaktus dan Tanaman Hias</h3>
                         <p>Cocok untuk meyehatkan kaktus kalian .</p>
                         <div class="harga">Rp 28.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Pupuk NPK 100gram Pupuk Penyubur Kaktus dan Tanaman Hias', 28000, 'Beli', 'gambar/pupuk kaktus 1.webp')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Pupuk NPK 100gram Pupuk Penyubur Kaktus dan Tanaman Hias', 28000, 'Beli', 'gambar/pupuk kaktus 1.webp'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+
+                <article class="produk-card" onclick="bukaModalProduk('Pupuk Kaktus Organik GDM 1Liter', 'Bisa diguanakan untuk semua tanaman.', 40000, 0, 'gambar/pupuk kaktus2.jpg')">
                     <img src="gambar/pupuk kaktus2.jpg" alt="Pupuk kaktus 2" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Pupuk Kaktus Organik GDM 1Liter</h3>
                         <p>Bisa diguanakan untuk semua tanaman.</p>
                         <div class="harga">Rp 40.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Pupuk Kaktus Organik GDM 1Liter', 40000, 'Beli', 'gambar/pupuk kaktus2.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Pupuk Kaktus Organik GDM 1Liter', 40000, 'Beli', 'gambar/pupuk kaktus2.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+
+                <article class="produk-card" onclick="bukaModalProduk('Pupuk Cactus & Succulent Focus Cair 100 ml ASLI Tanaman Kaktus Sukulen', 'cocok untuk menyehatkan kaktus kalian.', 68000, 0, 'gambar/pupuk kaktus 3.jpg')">
                     <img src="gambar/pupuk kaktus 3.jpg" alt="Pupuk Kaaktus 3" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Pupuk Cactus & Succulent Focus Cair 100 ml ASLI Tanaman Kaktus Sukulen</h3>
                         <p>cocok untuk menyehatkan kaktus kalian.</p>
                         <div class="harga">Rp 68.000 / Botol</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Pupuk Cactus & Succulent Focus Cair 100 ml ASLI Tanaman Kaktus Sukulen', 68000, 'Beli', 'gambar/pupuk kaktus 3.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Pupuk Cactus & Succulent Focus Cair 100 ml ASLI Tanaman Kaktus Sukulen', 68000, 'Beli', 'gambar/pupuk kaktus 3.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+
+                <article class="produk-card" onclick="bukaModalProduk('Dynamite Cactus & Succulent Food 18-6-8', 'Cocok untuk kaktus high class kalian.', 180000, 0, 'gambar/pupuk kaktus 4.webp')">
                     <img src="gambar/pupuk kaktus 4.webp" alt="Pupuk Kaktus 4" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Dynamite Cactus & Succulent Food 18-6-8</h3>
                         <p>Cocok untuk kaktus high class kalian.</p>
                         <div class="harga">Rp 180.000 / Botol</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Dynamite Cactus & Succulent Food 18-6-8', 180000, 'Beli', 'gambar/pupuk kaktus 4.webp')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Dynamite Cactus & Succulent Food 18-6-8', 180000, 'Beli', 'gambar/pupuk kaktus 4.webp'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+
+                <article class="produk-card" onclick="bukaModalProduk('Pupuk organik tanaman kaktus dan sukulen booster', 'perangsang agar cepat tumbuh tunas akar dan bunga segala jenis kaktus dan sukulens.', 45000, 0, 'gambar/pupuk kaktus 5.webp')">
                     <img src="gambar/pupuk kaktus 5.webp" alt="Pupuk Kaktus 5" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Pupuk organik tanaman kaktus dan sukulen booster</h3>
                         <p>perangsang agar cepat tumbuh tunas akar dan bunga segala jenis kaktus dan sukulens.</p>
                         <div class="harga">Rp45.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Pupuk organik tanaman kaktus dan sukulen booster', 45000, 'Beli', 'gambar/pupuk kaktus 5.webp')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Pupuk organik tanaman kaktus dan sukulen booster', 45000, 'Beli', 'gambar/pupuk kaktus 5.webp'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+
+                <article class="produk-card" onclick="bukaModalProduk('Pupuk Kaktus Sukulen Organik Siap Pakai 100 ml', 'Cocok untuk semua jenis kaktus dan sukulen.', 80000, 0, 'gambar/pupuk kaktus 7.webp')">
                     <img src="gambar/pupuk kaktus 7.webp" alt="Pupuk Kaktus 7" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Pupuk Kaktus Sukulen Organik Siap Pakai 100 ml</h3>
                         <p>Cocok untuk semua jenis kaktus dan sukulen.</p>
                         <div class="harga">Rp 80.000 / Botol</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Pupuk organik tanaman kaktus dan sukulen booster', 80000, 'Beli', 'gambar/pupuk kaktus 7.webp')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Pupuk Kaktus Sukulen Organik Siap Pakai 100 ml', 80000, 'Beli', 'gambar/pupuk kaktus 7.webp'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
@@ -404,72 +393,67 @@
         <main>
             <h1 class="about-title">Koleksi souvernir Kaktus </h1>
             <div class="produk-grid">
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Saguaro Barrel Cactus Gel Pens', 'Cocok untuk alat sekolah .', 12000, 0, 'gambar/souvernir kaktus.jpg')">
                     <img src="gambar/souvernir kaktus.jpg" alt="souvernir kaktus" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Saguaro Barrel Cactus Gel Pens</h3>
                         <p>Cocok untuk alat sekolah .</p>
                         <div class="harga">Rp 12.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Saguaro Barrel Cactus Gel Pens', 12000, 'Beli', 'gambar/souvernir kaktus.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Saguaro Barrel Cactus Gel Pens', 12000, 'Beli', 'gambar/souvernir kaktus.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Cactus Keychains', 'cocok untuk aksesoris tas, kunci pintu, kunci motor.', 10000, 0, 'gambar/souvernir kaktus 2.jpg')">
                     <img src="gambar/souvernir kaktus 2.jpg" alt="souvernir kaktus 2" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Cactus Keychains </h3>
                         <p>cocok untuk aksesoris tas, kunci pintu, kunci motor.</p>
                         <div class="harga">Rp 10.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Cactus Keychains', 10000, 'Beli', 'gambar/souvernir kaktus 2.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Cactus Keychains', 10000, 'Beli', 'gambar/souvernir kaktus 2.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Cactus Tealight Candles,12 Pieces Handmade', 'kaktus mini.', 70000, 0, 'gambar/souvernir kaktus 3.webp')">
                     <img src="gambar/souvernir kaktus 3.webp" alt="souvernir kaktus 3" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Cactus Tealight Candles,12 Pieces Handmade</h3>
                         <p>kaktus mini.</p>
                         <div class="harga">Rp 70.000 / Pck</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Cactus Tealight Candles,12 Pieces Handmade', 70000, 'Beli', 'gambar/souvernir kaktus 3.webp')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Cactus Tealight Candles,12 Pieces Handmade', 70000, 'Beli', 'gambar/souvernir kaktus 3.webp'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Cactus Shaped Candles', 'cocok sepagai penerang di meja makan kalian.', 25000, 0, 'gambar/souvernir kaktus 4.jpg')">
                     <img src="gambar/souvernir kaktus 4.jpg" alt="souvernir kaktus 4" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Cactus Shaped Candles</h3>
                         <p>cocok sepagai penerang di meja makan kalian.</p>
                         <div class="harga">Rp 25.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Cactus Shaped Candles', 25000, 'Beli', 'gambar/souvernir kaktus 4.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Cactus Shaped Candles', 25000, 'Beli', 'gambar/souvernir kaktus 4.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Possitive Crochet Succulent Plant for Mom, Handmade Knitted Cactus', 'cocok sebagai hadiah.', 65000, 0, 'gambar/souvernir kaktus 5.webp')">
                     <img src="gambar/souvernir kaktus 5.webp" alt="souvernir kaktus 5" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">Possitive Crochet Succulent Plant for Mom, Handmade Knitted Cactus </h3>
                         <p>cocok sebagai hadiah.</p>
                         <div class="harga">Rp 65.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Possitive Crochet Succulent Plant for Mom, Handmade Knitted Cactus', 65000, 'Beli', 'gambar/souvernir kaktus 5.webp')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Possitive Crochet Succulent Plant for Mom, Handmade Knitted Cactus', 65000, 'Beli', 'gambar/souvernir kaktus 5.webp'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('50 Pcs Wooden Push Pins', 'SPeniti Lucu untuk Foto Dinding, Peta, Papan Buletin atau Papan Gabus Dekorasi Kantor Rumah.', 80000, 0, 'gambar/souvernir kaktus 6.jpg')">
                     <img src="gambar/souvernir kaktus 6.jpg" alt="souvernir kaktus 6" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK">50 Pcs Wooden Push Pins</h3>
@@ -477,26 +461,24 @@
                         </p>
                         <div class="harga">Rp 80.000 / Pack</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('50 Pcs Wooden Push Pins', 80000, 'Beli', 'gambar/souvernir kaktus 6.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('50 Pcs Wooden Push Pins', 80000, 'Beli', 'gambar/souvernir kaktus 6.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Socks', 'Nyaman dipakai.', 36000, 0, 'gambar/souvernir kaktus 7.jpg')">
                     <img src="gambar/souvernir kaktus 7.jpg" alt="souvernir kaktus 7" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK"> Socks</h3>
                         <p>Nyaman dipakai.</p>
                         <div class="harga">Rp 36.000 / Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Socks', 36000, 'Beli', 'gambar/souvernir kaktus 7.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Socks', 36000, 'Beli', 'gambar/souvernir kaktus 7.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
 
-                <article class="produk-card">
+                <article class="produk-card" onclick="bukaModalProduk('Cactus Cosmetic Bag Cute', 'Tas Makeup Mall Tas Perlengkapan Mandi Travel Ritsleting untuk Anak Perempuan Hadiah Bunga untuk Saudari Tas Makeup Tanaman Hijau Hadiah untuk Wanita.', 28000, 0, 'gambar/souvernir kaktus 8.jpg')">
                     <img src="gambar/souvernir kaktus 8.jpg" alt="souvernir kaktus 8" class="produk-img" />
                     <div class="produk-info">
                         <h3 class="KMK"> Cactus Cosmetic Bag Cute </h3>
@@ -504,8 +486,7 @@
                             untuk Saudari Tas Makeup Tanaman Hijau Hadiah untuk Wanita.</p>
                         <div class="harga">Rp 28.000 /Pcs</div>
                         <div class="btn-group">
-                            <button class="btn-beli"
-                                onclick="tambahKeKeranjang('Cactus Cosmetic Bag Cute', 28000, 'Beli', 'gambar/souvernir kaktus 8.jpg')">Beli</button>
+                            <button class="btn-beli" onclick="tambahKeKeranjang('Cactus Cosmetic Bag Cute', 28000, 'Beli', 'gambar/souvernir kaktus 8.jpg'); event.stopPropagation();">Beli</button>
                         </div>
                     </div>
                 </article>
@@ -608,16 +589,159 @@
         };
     </script>
 
-      <!-- Tes icon WA -->
-    <a
-    href="https://wa.me/6285769659417"
-    class="whatsapp-float"
-    target="_blank"
-    rel="noopener"
-  >
-    <i class="fa fa-whatsapp"></i> Silahkan Hubungi Saya
-  </a>
-  <!-- Tes icon wa end -->
+    <!-- Tes icon WA -->
+    <a href="https://wa.me/6285769659417" class="whatsapp-float" target="_blank" rel="noopener">
+        <i class="fa fa-whatsapp"></i> Silahkan Hubungi Saya
+    </a>
+    <!-- Tes icon wa end -->
+
+    <!-- Modal Zoom Produk -->
+    <div id="produkModal" class="produk-modal">
+        <div class="modal-konten">
+            <span class="close-btn" onclick="tutupModal()">&times;</span>
+            <div id="modalIsiProduk"></div>
+        </div>
+    </div>
+
+    <style>
+        .produk-modal {
+            position: fixed;
+            display: none;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px 20px;
+            overflow-y: auto;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal-konten {
+            background-color: white;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 450px;
+            margin: 60px auto;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+            animation: zoomIn 0.3s ease;
+            position: relative;
+            text-align: center;
+        }
+
+        .modal-konten img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .modal-konten h3 {
+            font-size: 1.4rem;
+            color: #33691e;
+            margin-bottom: 8px;
+        }
+
+        .modal-konten p {
+            font-size: 0.95rem;
+            color: #4e5d42;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .modal-konten .harga {
+            font-size: 1rem;
+            color: #558b2f;
+            font-weight: bold;
+            margin: 12px 0;
+        }
+
+        .modal-konten .btn-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .modal-konten .btn-beli,
+        .modal-konten .btn-sewa {
+            padding: 10px 18px;
+            font-size: 0.9rem;
+            border-radius: 6px;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #888;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: #ff5252;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.85);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <script>
+        function bukaModalProduk(nama, deskripsi, hargaBeli, hargaSewa, gambar) {
+            const modal = document.getElementById("produkModal");
+            const isi = document.getElementById("modalIsiProduk");
+
+            isi.innerHTML = `
+      <img src="${gambar}" alt="${nama}" />
+      <h3>${nama}</h3>
+      <p>${deskripsi}</p>
+      <div class="harga">Rp ${hargaBeli.toLocaleString()} / Beli | Rp ${hargaSewa.toLocaleString()} / Sewa</div>
+      <div class="btn-group">
+        <button class="btn-beli" onclick="tambahKeKeranjang('${nama}', ${hargaBeli}, 'beli', '${gambar}')">Beli</button>
+        <button class="btn-sewa" onclick="tambahKeKeranjang('${nama}', ${hargaSewa}, 'sewa', '${gambar}')">Sewa</button>
+      </div>
+    `;
+
+            modal.style.display = "block";
+        }
+
+        function tutupModal() {
+            document.getElementById("produkModal").style.display = "none";
+        }
+
+        // Tutup modal jika klik di luar konten
+        window.addEventListener("click", function (event) {
+            const modal = document.getElementById("produkModal");
+            const konten = document.querySelector(".modal-konten");
+            if (event.target === modal) {
+                tutupModal();
+            }
+        });
+    </script>
+
 </body>
 
 </html>
